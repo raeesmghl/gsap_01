@@ -1,0 +1,99 @@
+#page2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    text-transform: capitalize;
+}
+
+
+.box {
+    width: calc(100%/4);
+    /* border: 2px solid #dadada6f; */
+    border-radius: 20px;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+
+    text-align: center;
+    padding: 4%;
+
+    box-shadow: 5px 5px 20px rgba(65, 65, 65, 0.382),
+        -5px -5px 20px rgba(109, 109, 109, 0.312);
+
+/* transition: .5s; */
+}
+
+.box>i {
+    font-size: 3rem;
+
+    transition: .5s;
+}
+
+.box>h2 {
+    font-size: 2rem;
+
+    transition: .5s;
+}
+
+.box>p {
+    font-size: 1.2rem;
+
+    transition: .5s;
+}
+
+
+
+.box:first-of-type:hover i,
+.box:first-of-type:hover h2,
+.box:first-of-type:hover p{
+    color: rgb(255, 184, 30);
+    
+}
+
+.box:first-of-type:hover{
+    box-shadow: 5px 5px 20px rgba(255, 184, 30, 0.431),
+    -5px -5px 20px rgba(255, 238, 5, 0.312);
+}
+
+
+
+
+
+
+
+
+
+.box:nth-of-type(2):hover i,
+.box:nth-of-type(2):hover h2,
+.box:nth-of-type(2):hover p{
+    color: rgb(36, 255, 193);
+    
+}
+
+.box:nth-of-type(2):hover{
+    box-shadow: 5px 5px 20px rgba(30, 255, 158, 0.55),
+    -5px -5px 20px rgba(129, 255, 200, 0.485)
+}
+
+
+
+
+
+
+
+.box:last-of-type:hover i,
+.box:last-of-type:hover h2,
+.box:last-of-type:hover p{
+    color: rgb(255, 61, 61);
+    
+}
+
+.box:last-of-type:hover{
+    box-shadow: 5px 5px 20px rgba(255, 50, 50, 0.431),
+    -5px -5px 20px rgba(255, 44, 44, 0.312);
+}

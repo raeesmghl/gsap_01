@@ -1,0 +1,71 @@
+@media (max-width: 1024px) {
+    #container {
+        flex-direction: column;
+        /* justify-content: flex-start;
+        align-items: center; */
+        gap: 100px;
+        margin-top: 50px;
+    }
+
+    #container>div {
+        width: 100%;
+        align-items: center;
+    }
+
+    #container-left>h1 {
+        width: 80%;
+    }
+
+
+
+    #container-right {
+        padding: 5%;
+
+    }
+
+    #container-right>img {
+        max-width: 1000px;
+    }
+}
+
+
+
+@media (max-width: 650px) {
+
+    /* main heading was overflowing*/
+    #container-left>h1 {
+        font-size: 3rem;
+        line-height: 60px;
+    }
+
+    #btns>h4 {
+        font-size: .8rem;
+    }
+}
+
+
+
+
+@media (max-width: 500px) {
+
+    /* logo's font-size */
+    #nav-left {
+        font-size: 1.3rem;
+    }
+
+    #page1 {
+        padding: 0;
+    }
+
+    #container-left>h1 {
+        width: 90%;
+    }
+
+    #container-left>hr {
+        width: 90%;
+    }
+
+    #container-left>#btns {
+        width: 90%;
+    }
+}
